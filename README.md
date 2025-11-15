@@ -1,64 +1,71 @@
-# NLP Analysis of SOcial Media Posts
-**Engineered by Shervin Zare**
+# NLP Analysis of Social Media Posts
+### Engineered by Shervin Zare
 
-This project uses Natural Language Processing techniques to analyze communication patterns in a real-world Twitter dataset. The analysis explores sentiment trends, text structure, and behavioral patterns across time and device type.
+A comprehensive Natural Language Processing project analyzing communication patterns, sentiment dynamics, and behavioral trends in social media data using advanced NLP techniques and data visualization.
+
+## 📊 Dataset & Tools
+
+### Primary Dataset
+**Trump Tweet Dataset** ([Kaggle](https://www.kaggle.com/datasets/ayushggarg/trumps-tweets))
+- **56,571 tweets** spanning 2011-2021
+- **Features**: Text content, timestamps, device metadata, engagement metrics
+- **Use Case**: Temporal analysis, device-based behavioral patterns, sentiment tracking
+
+### NLP Foundation
+**VADER Sentiment Lexicon** ([GitHub](https://github.com/cjhutto/vaderSentiment))
+- **7,500+ lexical features** human-validated for social media
+- **Rule-based system** optimized for emojis, slang, and informal language
+- **Compound scoring** (-1 to +1) for nuanced sentiment analysis
+
+## 🛠️ Technical Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Core Processing** | Python, Pandas, NumPy |
+| **NLP & Text Analysis** | VADER, Regex, Text Normalization |
+| **Visualization** | Matplotlib, Seaborn |
+| **Analysis** | Time Series, Distribution Analysis, Pattern Recognition |
+
+## 🔍 Analytical Features
+
+### 📱 Device Behavior Analysis
+- **Platform Comparison**: iPhone vs Android usage patterns
+- **Temporal Patterns**: Hourly and longitudinal posting behavior
+- **Behavioral Insights**: Personal vs staff communication identification
+
+### 😊 Sentiment Intelligence
+- **VADER Implementation**: Social media-optimized sentiment scoring
+- **Comparative Analysis**: Media outlet mention sentiment (NY Times vs Fox)
+- **Content Strategy**: Hashtag/link impact on emotional tone
+
+### ⏰ Temporal Analytics
+- **Engagement Optimization**: Peak activity hour identification
+- **Trend Analysis**: Multi-year communication pattern evolution
+- **Strategic Timing**: Data-driven posting schedule recommendations
+
+## 📈 Key Insights Delivered
+
+- **Device-specific patterns** revealing strategic communication shifts
+- **Sentiment distribution** across different content types and mentions
+- **Optimal engagement windows** based on temporal analysis
+- **Content formatting correlations** with audience reception
+
+## 🚀 Business Applications
+
+- **Marketing Optimization**: Data-driven content scheduling and platform strategy
+- **Brand Monitoring**: Real-time sentiment tracking and crisis detection
+- **Competitive Intelligence**: Communication pattern benchmarking
+- **Resource Allocation**: Staff optimization based on engagement patterns
+
+
+## 🎯 Skills Demonstrated
+
+- **Natural Language Processing**: VADER sentiment analysis, text preprocessing
+- **Data Wrangling**: Pandas manipulation, datetime processing, feature engineering
+- **Statistical Visualization**: Distribution analysis, time series plotting, comparative charts
+- **Pattern Recognition**: Behavioral trend identification, correlation analysis
+- **Business Intelligence**: Actionable insight generation from raw data
 
 ---
 
-## 📊 Dataset  
-The primary dataset used in this project is the **Trump Tweet Dataset**, available on Kaggle:  
-👉 [Trump Tweet Dataset](https://www.kaggle.com/datasets/rishidamarla/trumps-tweets)
-
-**Overview:**  
-This dataset contains thousands of tweets posted by Donald Trump over multiple years. It includes:  
-- Tweet text  
-- Timestamps  
-- Device used (Android / iPhone / Web)  
-- Engagement metrics  
-- Additional metadata  
-
-This dataset allows for temporal analysis, NLP-based sentiment scoring, device-based behavioral comparisons, and communication pattern exploration.
-
----
-
-## 🧠 Sentiment Lexicon (VADER)  
-Sentiment scoring in this project uses the **VADER Lexicon**, available here:  
-👉 [VADER Sentiment Lexicon](https://www.kaggle.com/datasets/nltkdata/vader-lexicon)
-
-**About VADER:**  
-VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool specifically designed for social media text. It is:  
-- Tuned for microblog-style communication  
-- Human-validated and empirically tested  
-- Excellent for short text, emojis, punctuation emphasis, and slang  
-
-It provides **positive**, **negative**, **neutral**, and **compound** sentiment scores for each tweet.
-
----
-
-## 🔍 Key Features
-- Text cleaning, normalization, and tokenization  
-- Sentiment analysis using VADER  
-- Hourly and daily communication pattern analysis  
-- Device-based behavior comparison  
-- Regex-based text pattern extraction  
-- High-quality visualizations with Matplotlib & Seaborn  
-
----
-
-## 🛠️ Tools & Libraries
-- Python (Pandas, NumPy)  
-- NLTK / VADER  
-- Matplotlib, Seaborn  
-
----
-
-## 📁 Project Structure
-- `notebooks/` – main analysis notebook  
-- `data/` – cleaned dataset  
-- `figures/` – generated plots  
-
----
-
-## ✨ What This Demonstrates
-Practical NLP experience, real-world dataset cleaning, sentiment analysis, regex usage, and time-based communication analytics.
-
+*Transforming social media data into strategic communication intelligence through advanced NLP and data science techniques.*
