@@ -1,5 +1,5 @@
 # NLP Analysis of SOcial Media Posts
-**By Shervin Zare**
+**Engineered by Shervin Zare**
 
 This project uses Natural Language Processing techniques to analyze communication patterns in a real-world Twitter dataset. The analysis explores sentiment trends, text structure, and behavioral patterns across time and device type.
 
